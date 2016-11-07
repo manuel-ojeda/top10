@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/top10.css">
+		<link rel="stylesheet" href="components/lastfmartists/lastfmartists.component.css">
+		<link rel="stylesheet" href="components/lastfmtracks/lastfmtracks.component.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
+	<body ng-app="top10">
+		<header>
+			<nav>
+				<img src="img/top10.png" alt="Top ten">
+			</nav>
+		</header>
+		<main>
+			<section>
+				<h1>Top 10 artistas</h1>
+				<lastfm-artists></lastfm-artists>
+			</section>
+			<section>
+				<h1>Top 10 tracks</h1>
+				<lastfm-tracks></lastfm-tracks>
+			</section>
+			
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="components/lastfmartists/lastfmartists.component.js"></script>
+	<script src="components/lastfmtracks/lastfmtracks.component.js"></script>
+	<script src="factories/lastfm.factory.js"></script>
+	
+</html>
