@@ -1,0 +1,8 @@
+<div ng-repeat="track in $ctrl.tracks">
+	<div class="container">
+  		<img ng-src="{{ track.image[3]['#text'] }}" alt="">
+  		<h2 class="song">{{ $index + 1 }}.{{ track.name }}</h2>
+  		<br>
+  		<h2 class="text">{{ track.artist.name }}</h2>
+	</div>
+</div>

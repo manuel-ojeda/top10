@@ -1,0 +1,97 @@
+body{
+		background-color:black;
+	}
+header{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(160, 160, 160, 0.3);
+}
+nav{
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+body header nav img{
+	height: 100%;
+	width: auto;
+	left:0;
+}
+main{
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:75px;
+	bottom:0;
+	right:0;
+	position: absolute;
+}
+.leftMainContainer{
+	top:80px;
+	width: 49.9%;
+	float: left;
+	position: absolute;
+	border-right-style: solid;
+	border-right-color: grey;
+	border-right-width: 2%;
+}
+.rightMainContainer{
+	top:80px;
+	width: 49.9%;
+	float: right;
+	position: relative;
+	border-left-style: solid;
+	border-left-color: grey;
+	border-left-width: 2%;
+}
+.container{
+	width: 100%;
+	position: relative;
+}
+.text{
+	width: 100%;
+	height: 40px;
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Coiny', cursive;
+	text-align: center;
+	line-height: 50px;
+	font-size: 3vw;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	border-bottom-width: 3px;
+	text-shadow: 3px 1px 1px grey;
+	left: 0;
+	bottom: 15px;
+	color: white;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.song{
+	width: 100%;
+	height: 40px;
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Coiny', cursive;
+	text-align: center;
+	line-height: 50px;
+	font-size: 3vw;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	border-bottom-width: 3px;
+	text-shadow: 3px 1px 1px grey;
+	left: 0;
+	bottom: 60px;
+	color: white;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}

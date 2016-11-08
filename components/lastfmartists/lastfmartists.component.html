@@ -1,0 +1,6 @@
+<div ng-repeat="artist in $ctrl.artists">
+	<div class="container">
+  		<img ng-src="{{ artist.image[3]['#text'] }}" alt="">
+  		<h2 class="text">{{ $index + 1 }}.{{ artist.name }}</h2>
+	</div>
+</div>
